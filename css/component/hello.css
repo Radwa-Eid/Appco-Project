@@ -1,0 +1,38 @@
+.hello{
+    position: relative;
+    border-bottom: 1px solid #ffc9fd;
+    overflow: hidden
+}
+.say{
+    margin-left: 100px;
+}
+.say__hello h2{
+    font-size: 50px;
+    line-height: 1.2;
+    color: #282828;
+    font-family: "Nunito",sans-serif;
+}
+.hello .btn-home1{
+    padding: 19px 35px;
+}
+.say__ships__1{
+    position: absolute;
+    top: 127px;
+    left: -64px;
+    animation-name: rotate;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.say__ships__2{
+    position: absolute;
+    top: 9px;
+    right: 0;
+    bottom: 0;
+    bottom: 0;
+    right: 0px;
+}

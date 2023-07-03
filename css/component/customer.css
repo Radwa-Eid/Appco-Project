@@ -1,0 +1,26 @@
+.customer{
+    padding-top: 170px;
+    padding-bottom: 200px;
+}
+.customer .pricing__tittle h2{
+    color: #2b044d;
+}
+.customer .card{
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0 0 9px 0 rgb(131 93 248 / 7%);
+    background: #ffff;
+    padding: 55px 15px 55px 40px;
+}
+.customer .card1{
+    opacity: .3;
+}
+.customer .card .card-body{
+    padding: 0;
+}
+.customer .card-body .card-title a{
+    font-size: 20px;
+    color: #712fda;
+    margin-bottom: 20px;
+}

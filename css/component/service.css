@@ -1,0 +1,96 @@
+.service{
+    background: #f4feff;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.service__heading{
+    align-items: center;
+    text-align: center;
+}
+.service__heading h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 90px;
+}
+.service__info{
+    background: #fff;
+    padding: 84px 45px 56px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: .5s;
+}
+.feature__card{
+    background: #fff;
+    padding: 84px 45px 56px;
+    border: 1px solid transparent;
+}
+.service__icon{
+    display: inline-block;
+    position: relative;
+}
+.service__icon::before{
+    content: "";
+    position: absolute;
+    background-image: url(../../img/xdot-bg.png.pagespeed.ic.CHsEbhdzpj.webp);
+    width: 80px;
+    height: 135px;
+    right: 41px;
+    top: -35px;
+    transition: .5s;
+    z-index: 0;
+}
+.service__icon span{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    background-color: #e88cea;
+    margin-bottom: 20px;
+    transition: .5s;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 105px;
+    font-size: 40px;
+} 
+.feature__card{
+    padding: 84px 45px 56px;
+}
+.feature__card .card-body{
+    padding: 0;
+}
+.feature__card:hover{
+    border: 1px solid #b8a2ff;
+}
+.feature__card:hover .service__icon span{
+    background: #835ef8;
+}
+.feature__card:hover .service__icon::before{
+    right: 47px;
+}
+
+.feature__card .card-body .card-title a{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 27px;
+    color: inherit;
+    transition: 0.3s;
+}
+.feature__card .card-body .card-title a:hover{
+color: #835ef8;
+}
+.feature__card .card-body .card-text{
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.active{
+    border: 1px solid #b8a2ff;
+}
+.active .service__icon span{
+    background: #835ef8;
+}
+.active .service__icon::before{
+    right: 47px;
+}

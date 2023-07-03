@@ -1,0 +1,23 @@
+/*Base Start*/
+@import"./base/base.css";
+/*Base End*/
+
+/*Layout Start*/
+@import"./layout/header.css";
+@import"./layout/footer.css";
+/*Layout End*/
+
+/*Component Start*/
+@import"./component/home.css";
+@import"./component/feature.css";
+@import"./component/service.css";
+@import"./component/app.css";
+@import"./component/pricing.css";
+@import"./component/customer.css";
+@import"./component/avaliable.css";
+@import"./component/hello.css";
+/*Component End*/
+
+/*Responsive Start*/
+@import"./responsive/responsive.css";
+/*Responsive End*/

@@ -1,0 +1,117 @@
+.pricing {
+    position: relative;
+    background-image: url(../../img/best_pricingbg.jpg.webp);
+    padding-top: 110px;
+    padding-bottom: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pricing::before{
+    position: absolute;
+    inset:0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    opacity: .95;
+    background-image:linear-gradient(0deg,#f9218d 0%,#6c19f6 100%);
+}
+.pricing__tittle h2 {
+    color: #fff;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 90px;
+}
+.cards__pricing{
+    position: relative;
+    margin-top: -295px;
+    z-index: 1;
+}
+
+.cards__pricing .card::before{
+    position: absolute;
+    content: "";
+    background-image: url(../../img/xcard_dot.png.pagespeed.ic.p3ARBYlPMA.webp);
+    width: 171px;
+    height: 134px;
+    bottom: 0;
+    right: 3px;
+    transition: .4s;
+    z-index: -1;
+}
+.cards__pricing .card:hover::before{
+    right: -20px;
+    bottom: -21px;
+}
+.cards__pricing .card-body{
+    position: relative;
+    background: #fff;
+    padding: 40px 25px;
+    border-radius: 6px;
+    box-shadow: 0 0 9px 0 rgb(131 93 248 / 7%);
+    transition: 0.4s;
+}
+.cards__pricing .card:hover .card-body{
+    box-shadow: 0 10px 30px 0 rgb(133 66 189 / 10%);
+}
+.cards__pricing .card__top{
+    border-bottom: 2px solid #f4f4f4;
+    margin-bottom: 46px;
+}
+.cards__pricing .card__top span{
+    color: #57667e;
+    font-size: 28px;
+    margin-bottom: 19px;
+    display: inline-block;
+}
+.cards__pricing .card__top h4{
+    color: #6a56a6;
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 26px;
+    padding-right: 3px;
+}
+.cards__pricing .card__top h4 span{
+    color: #6a56a6;
+    font-size: 18px;
+    margin-bottom: 19px;
+    display: inline-block;
+}
+.cards__pricing .card__bottom__list{
+    color: #717081;
+    font-weight: 400;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.cards__pricing .list__item__end{
+margin-bottom: 45px;
+}
+.cards__pricing .pricing__btn{
+    position: relative;
+    background: #712fda;
+    border-radius: 6px;
+    padding: 20px 44px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: color 0.4s linear;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 1;
+}
+.cards__pricing .pricing__btn::before{
+    background: #ff374b;
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform-origin: 0 0;
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+    transition-timing-function: cubic-bezier(.5,1.6,.4,.7);
+    z-index: -1;
+}
+.cards__pricing .card:hover .pricing__btn::before{
+    color: #fff;
+    transform: scaleX(1);
+    z-index: -1;
+}

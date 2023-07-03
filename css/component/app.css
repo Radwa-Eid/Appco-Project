@@ -1,0 +1,28 @@
+.app{
+    position: relative;
+    overflow: hidden;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.app__text{
+    position: relative;
+    margin-top: 72px;
+    left: 33%;
+}
+.app__text h3{
+    color: #2b044d;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+.app__imgs{
+    position: relative;
+    overflow: hidden;
+    right: -17%;
+}
+.app__imgs .img__app1 img{
+    width: 234.5px;
+    margin-right: 15px;
+}

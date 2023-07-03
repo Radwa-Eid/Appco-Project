@@ -1,0 +1,52 @@
+.feature {
+    padding-top: 200px;
+    padding-bottom: 110px;
+    position: relative;
+}
+
+.feature-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 90px;
+}
+
+.card__icon span {
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    height: 67px;
+    width: 67px;
+    line-height: 67px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
+}
+
+.feature1 .card-body {
+    padding: 0;
+    padding-left: 19px;
+}
+
+.feature1 .card-body .card-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #23182c;
+}
+
+.feature1 .card-body .card-text {
+    font-weight: 300;
+}
+
+.feature__img {
+    position: absolute;
+    left: 25px;
+    top: 150px;
+}
+
+.feature__img img {
+    width: 80%;
+}

@@ -1,0 +1,46 @@
+header{
+    position: absolute;
+    inset: 0;
+    z-index: 99;
+    display: block;
+}
+header .dropdown-toggle::after{
+    display: none;
+}
+header .dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #450b78;
+}
+.header__list li{
+    margin: 0 5px;
+    position: relative;
+}
+.header__list li a{
+    display: block;
+    font-weight: 400;
+    padding: 35px 16px;
+    font-size: 16px;
+    transition: .3s;
+    text-transform: capitalize;
+}
+
+header .nav-item::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 20px;
+    background: #a60dcf;
+    height: 2px;
+    transition: .3s;
+    width: 100%;
+    opacity: 0;
+}
+header .header__link1::before{
+    opacity: 1;
+}
+header .nav-item:hover::before {
+    opacity: 1;
+} 
+

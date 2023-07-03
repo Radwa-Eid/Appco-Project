@@ -1,0 +1,193 @@
+@media screen and (max-width: 767px) {
+    .home {
+        padding-top: 46px;
+    }
+
+    .home .card .card-title {
+        font-size: 29px;
+        line-height: 1.4;
+    }
+
+    .home .card .card-text {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .home .home__img__col {
+        display: none;
+    }
+
+    .feature {
+        padding-top: 70px;
+        padding-bottom: 15px;
+    }
+
+    .feature__img {
+        display: none;
+    }
+
+    .feature-title {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .service__heading h2 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+    .app{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .app__text{
+        margin-top: 0px;
+        left: 0;
+    }
+    .app__text h3 {
+        font-size: 30px;
+    }
+    .app__imgs{
+        right: 0;
+        margin: auto;
+    }
+    .app__imgs .apps__appear img{
+        display: block;
+        width: 100%;
+    }
+    .app__imgs .apps__dispalay img{
+        display: none;
+    }
+    .pricing__tittle h2 {
+        font-size: 29px;
+    line-height: 1.3;
+    }
+    .customer{
+        padding-top: 35px;
+    padding-bottom: 90px;
+    }
+    .diappear{
+        display: none;
+    }
+    .avaliable{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .avaliable__tittle h2 {
+        font-size: 30px;
+        margin-bottom: 35px;
+        font-weight: 600;
+    }
+    .avaliable__tittle p {
+        padding-right: 0px;
+    }
+    .avaliable__app__img {
+        display: block;
+        right: 0px;
+        top: 45px;
+    }
+    .app__btn a img {
+        margin-bottom: 15px;
+    }
+    .say{
+        margin-left: 0;
+    }
+    
+    .say__hello h2 {
+        margin-bottom: 25px;
+    font-size: 30px;
+    }
+    .say__ships__1 {
+        display: none;
+    }
+    .say__ships__2 {
+        display: none;
+    }
+    footer{
+        padding-top: 70px;
+    padding-bottom: 50px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .home .card .card-title {
+        font-size: 50px;
+        line-height: 1.2;
+    }
+    .home .card .card-text {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .home .home__img__col {
+        display: none;
+    }
+    .feature{
+        padding-top: 70px;
+    padding-bottom: 15px;
+    }
+    .feature__img {
+        display: none;
+    }
+    .service {
+        padding-top: 100px;
+    padding-bottom: 100px;
+    }
+    .feature__card {
+        margin-bottom: 15px;
+    }
+    
+    .app {
+        padding-top: 100px;
+    padding-bottom: 100px;
+    }
+    .app__text{
+        margin-top: 0px;
+        left: 0;
+        left: 17%;
+        margin-top: 40px;
+    }
+    .app__imgs .md__appear{
+         margin-right: 15px;
+    }
+    .app__imgs .md__appear img{
+        display: block;
+        width: 100%;
+    }
+    .app__imgs .md__disappear img{
+        display: none;
+    }
+    .customer{
+        padding-top: 100px;
+    padding-bottom: 160px;
+    }
+    .diappear{
+        display: none;
+    }
+    .avaliable{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .avaliable__tittle p {
+        padding-right: 0px;
+    }
+    .avaliable__app__img {
+        display: block;
+        right: 0px;
+        top: 45px;
+    }
+    .say{
+        margin-left: 0;
+    }
+    .say__hello h2 {
+        margin-bottom: 20px;
+    }
+    .say__ships__1 {
+        display: none;
+    }
+    .say__ships__2 {
+        display: none;
+    }
+}
